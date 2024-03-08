@@ -1,0 +1,25 @@
+#NOTE -  In SQL, the order of execution of a query follows a specific sequence of clauses. Here is the typical order of execution for a SELECT statement:
+
+1. **FROM:**
+   - Specifies the table or tables from which the data is retrieved.
+
+2. **WHERE:**
+   - Filters the rows based on a specified condition.
+
+3. **GROUP BY:**
+   - Groups the result set by one or more columns. This is often used in combination with aggregate functions like COUNT, SUM, AVG, etc.
+
+4. **HAVING:**
+   - Filters the grouped results based on a specified condition. It is similar to the WHERE clause but is used specifically with grouped data.
+
+5. **SELECT:**
+   - Specifies the columns to be included in the result set. This is where you can use aggregate functions if needed.
+
+6. **ORDER BY:**
+   - Sorts the result set based on one or more columns, either in ascending or descending order.
+
+7. **LIMIT (or OFFSET-FETCH in some databases):**
+   - Specifies the number of rows to be returned or, in some databases, skips a certain number of rows before returning the results.
+
+  
+ 
